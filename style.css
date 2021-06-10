@@ -1,0 +1,30 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: consolas;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+section {
+    width     : 100%;
+    min-height: 100vh;
+    padding   : 100px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background   : red;
+    border-radius: 7px;
+}
+
+.container::-webkit-scrollbar-track {
+    background   : #e1e1e100;
+    border-radius: 4px;
+}
